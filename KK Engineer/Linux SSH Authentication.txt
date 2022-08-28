@@ -1,0 +1,7 @@
+The task was to setup no password ssh access to the current user in jumphost to all the app servers
+
+this was done by below commands
+
+ssh-keygen -t rsa -----> this command generates the ssh keys for the current user
+
+ssh-copy-id username@servername ------> this copies the generated command to the desired servers
