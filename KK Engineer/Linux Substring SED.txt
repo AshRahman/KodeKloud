@@ -1,0 +1,12 @@
+This Challenge was easy find kind of tricky
+
+the delete substring command was easy
+
+sed '/change_sub/d' file.txt>file_delete.txt
+
+now the replace was tricky because we only needed to
+replace the lone word not words inside another word.
+the solve was to put a space at first,because lone words will have a space to
+specify that they are lone words and not words inside word
+
+sed 's/ word/ change/g' BSD.txt>file_replace.txt
