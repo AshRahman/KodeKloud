@@ -1,0 +1,12 @@
+ssh into the desired server
+
+sudo yum install ntp -y
+
+vi /etc/ntp.conf
+
+add the ntp server
+
+
+server number.pool.org
+
+save and exit
